@@ -21,6 +21,8 @@
 //3) create a function to repeat an adding of code when run
 //4) run a new var with style/text. use appendchild to stick it somewhere
 //5) pick the button that will kick off and how/function
+
+var taskIdCounter = 0;
 var buttonEl = document.querySelector("#save-task");
 var tasksToDoEl = document.querySelector("#tasks-to-do");
 
